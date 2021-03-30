@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orange"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="265dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:fontFamily="@font/yatra_one"
+        android:hint="Image Url"
+        android:inputType="textPersonName"
+        android:textColor="#F57C00"
+        android:textColorHint="@color/orange"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/category_image" />
+
+    <ImageView
+        android:id="@+id/category_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/image_search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/orange"
+        android:clickable="true"
+        android:elevation="30dp"
+        android:fontFamily="@font/yatra_one"
+        android:text="Save"
+        android:textColor="@color/black"
+        app:cornerRadius="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="144dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/yatra_one"
+        android:text="Add Image"
+        android:textColor="@color/black"
+        app:cornerRadius="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/category_image" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="265dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:fontFamily="@font/yatra_one"
+        android:hint="Category"
+        android:inputType="textPersonName"
+        android:textColor="#F57C00"
+        android:textColorHint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

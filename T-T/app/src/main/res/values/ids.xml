@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="items_list" type="id"/>
+    <item name="item_edit_text" type="id"/>
+    <item name="add_btn" type="id"/>
+    <item name="tracker_view" type="id"/>
+    <item name="newItemUnit" type="id" />
+</resources>

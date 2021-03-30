@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "110738208803",
+    "firebase_url": "https://trackera-f2955.firebaseio.com",
+    "project_id": "trackera-f2955",
+    "storage_bucket": "trackera-f2955.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110738208803:android:43bbee2b7a7e8299665996",
+        "android_client_info": {
+          "package_name": "com.example.t_t"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110738208803-ph0j4vttp8mig2hmtvedc58fud48v0fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCys923qG43tiyn5RUyYdVLRP2TjxbMDEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110738208803-ph0j4vttp8mig2hmtvedc58fud48v0fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

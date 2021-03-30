@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orange">
+
+    <EditText
+        android:id="@+id/newItemUnit"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/yatra_one"
+        android:hint="Unit"
+        android:inputType="textPersonName"
+        android:textColor="#F57C00"
+        android:textColorHint="#F57C00"
+        app:layout_constraintBottom_toTopOf="@+id/addItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newItemUnits"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <EditText
+        android:id="@+id/newItemText"
+        android:layout_width="227dp"
+        android:layout_height="44dp"
+
+        android:layout_marginTop="32dp"
+        android:alpha="1"
+        android:fontFamily="@font/yatra_one"
+        android:hint="Item Name"
+        android:textAlignment="textStart"
+        android:textColor="#F57C00"
+        android:textColorHint="#F57C00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/newItemUnits"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/yatra_one"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:textColor="#F57C00"
+        android:textColorHint="#F57C00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newItemText" />
+
+    <Button
+        android:id="@+id/addItem"
+        android:layout_width="69dp"
+        android:layout_height="41dp"
+
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/yatra_one"
+        android:text="Add"
+        android:textAlignment="center"
+        android:textColor="#0E0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newItemUnits"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addItem"
+        app:srcCompat="@drawable/image_search" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:fontFamily="@font/yatra_one"
+        android:hint="Image Url"
+        android:inputType="textPersonName"
+        android:textColor="#F57C00"
+        android:textColorHint="#F57C00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="144dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/yatra_one"
+        android:text="Add Image"
+        android:textColor="#1B1717"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
